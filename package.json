@@ -1,13 +1,16 @@
 {
   "name": "mono-node-express-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Monolith Node-Express server testing API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev ./src/server.ts",
+    "tsc": "tsc"
+
   },
   "keywords": [],
-  "author": "",
+  "author": "Antonette Caldwell",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
