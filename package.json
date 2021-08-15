@@ -4,9 +4,9 @@
   "description": "Monolith Node-Express server testing API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev ./src/server.ts",
-    "tsc": "tsc"
+    "test": "./node_modules/.bin/mocha -r ts-node/register src/test/*.test.ts",
+    "dev": "./node_modules/.bin/ts-node-dev ./src/server.ts",
+    "tsc": "./node_modules/.bin/tsc"
   },
   "keywords": [],
   "author": "Antonette Caldwell",
